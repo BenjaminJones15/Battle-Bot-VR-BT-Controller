@@ -1,0 +1,16 @@
+Running the server, server takes at least 1 parameters which is the number of players.
+
+java -jar BatBot161.jar  2  
+  starts it up with 2 players
+
+java -jar BatBot161.jar 1 
+  starts up the code in test mode, but allow to test out your code.
+
+
+running the client jar  parameters are hostname and port number.  
+  the port is always 3012, localhost if you are running on the same machine.
+java -jar strafe.jar localhost 3012
+
+
+Please note, you BBVR code will connect up to server, so it will need to know host IP or name.
+Lastly, based on the way things are drawn, the other player will not be red or blue.  instead of the cubes are multi colored to better stand out in the area.
